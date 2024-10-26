@@ -183,6 +183,10 @@ const updateSummary = async (city) => {
         })
         .catch(error => console.error("Error:", error));
     console.log('response', weatherData);
+    document.querySelector('.avg-temp').innerHTML=`Average Temperature: ${weatherData.avgTemperature}`;
+    document.querySelector('.max-temp').innerHTML=`Maximum Temperature: ${weatherData.avgTempMax}`;
+    document.querySelector('.min-temp').innerHTML=`Minimum Temperature: ${weatherData.avgTempMin}`;
+
 }
 
 // Initial fetch for a default city

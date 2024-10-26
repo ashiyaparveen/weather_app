@@ -8,10 +8,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-  color: rgb(27, 43, 82);
-  background: linear-gradient(135deg, #301161, #E9BCAC);
-  overflow-x: hidden;
+  color: rgb(246, 247, 248);
+  /* Gradient background color */
+  background: linear-gradient(135deg, #28124b, #E9BCAC);
+  /* Background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
+
 
 .displayflex {
   display: flex;
@@ -26,11 +30,12 @@ body {
 
 .climate-container {
   align-items: center;
-  width: 100%;
+  width: 80%;
   background: linear-gradient(135deg, #261161, #E9BCAC); /* Adjusted to a single color for simplicity */
   border-radius: 15px;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px auto;
+  margin-bottom: 2px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -41,8 +46,9 @@ body {
 .climate {
   display: flex;
   justify-content: space-between;
-  color: rgb(179, 172, 191);
+  color: rgb(193, 190, 199);
   font-size: x-large;
+  
 }
 
 .input-container {
@@ -90,29 +96,37 @@ body {
 
 .daily-summary {
   width: 90%;
-  background-color: rgba(146, 142, 158, 0.8);
+  background: linear-gradient(135deg, #3f29634d, #b561b24d);
   border-radius: 15px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 /* Weather Details Box */
 .weather-details-box {
-  background-color: rgba(17, 86, 63, 0.26);
+background-image: url("https://www.aiscribbles.com/img/variant/large-preview/18302/?v=02d54d");
+  background-size: cover;
+  background-position: center;
   border-radius: 15px;
-  padding: 150px; /* Reduced padding */
-  margin-top: 20px; /* Space between daily summary and weather details */
+  padding: 150px; /* Adjusted padding to fit text */
+  margin-top: 25px;
+  margin-bottom: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  color: rgb(248, 248, 248);
-  height: auto; /* Height based on content */
-  margin-left: 20px;
+  color: white; /* Set text color to white */
+  height:auto; /* Content-based height */
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: xx-large; /* Adjusted font size to fit within box */
+  text-align: left; /* Optional: Align text to left */
+  overflow-wrap: break-word; /* Ensure long text wraps within the box */
 }
+
 
 .summary-container {
   color: black;
@@ -127,7 +141,7 @@ body {
   justify-content: center;        /* Center vertically */
   font-size: larger;
   margin-top: 5px;
-  background: linear-gradient(135deg, #382373, #E9BCAC);
+  background: linear-gradient(135deg, #432452, #E9BCAC);
   border-radius: 15px;
   padding: 150px;                /* Adjust padding if necessary */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

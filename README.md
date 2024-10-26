@@ -19,17 +19,6 @@ This is a simple Weather App built using HTML, CSS, and JavaScript. It provides 
 
 ## Installation
 
-##To run this application locally:
-
-1. Clone this repository or download the files.
-2. Open `index.html` in your web browser.
-
-```bash
-git clone <repository-url>
-# Weather Monitoring Application
-
-## Overview
-This weather monitoring application fetches and displays real-time weather data for a specified city. It utilizes the OpenWeatherMap API to gather weather information, including temperature, humidity, wind speed, and more. The application also includes threshold alerts for temperature, wind speed, and humidity levels, providing notifications when certain thresholds are breached.
 
 ## Features
 - **Real-time Weather Data**: Get the latest weather updates for any city.
@@ -44,6 +33,13 @@ This weather monitoring application fetches and displays real-time weather data 
 - **Database**: MongoDB (for storing weather data)
 - **API**: OpenWeatherMap API for fetching weather information
 - **Email Notifications**: EmailJS for sending alert notifications via email
+##To run this application locally:
+
+1. Clone this repository or download the files.
+2. Open `index.html` in your web browser.
+
+```bash
+git clone <repository-url>
 
 ## Installation
 1. **Clone the repository**:

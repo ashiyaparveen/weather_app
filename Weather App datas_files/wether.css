@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "RobotoSlab";
+}
+
+body {
+  font-family: "Roboto";
+  background-color: rgba(106, 174, 223, 0.845);
+  overflow-x: hidden; /* Avoid horizontal scrolling */
+}
+
+.Gapforimage {
+  box-shadow: 0px 0px 20px black;
+  width: 65rem;
+  height: 37rem;
+  background-image: url("https://www.google.com/search?q=weather+image+map+hd&sca_esv=0a37820849624505&udm=2&biw=1280&bih=585&ei=MJcXZ8i2L4-PseMPsaTzkAs&ved=0ahUKEwjIjvC1-6GJAxWPR2wGHTHSHLIQ4dUDCBA&uact=5&oq=weather+image+map+hd&gs_lp=EgNpbWciFHdlYXRoZXIgaW1hZ2UgbWFwIGhkSPAJUGVYhghwAXgAkAEAmAHlAqAB1gSqAQcwLjIuMC4xuAEDyAEA-AEBmAICoALvAsICBhAAGAgYHpgDAIgGAZIHBTEuMy0xoAfYAg&sclient=img&safe=active&ssui=on#vhid=fMYNmmgWB8AfiM&vssid=mosaic");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-left: 15%;
+  position: relative;
+  display: flex; /* Use flexbox */
+}
+.climate-container {
+  background-color: rgba(205, 186, 186, 0.7); /* Background color for climate container */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  margin-top: 20px; /* Space above the container */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.climate {
+  display: flex;
+  justify-content: space-between; /* Aligns items in the climate box */
+  color: white; /* Text color for visibility */
+}
+.input-container {
+  margin-top: 20px; /* Space above the input container */
+}
+
+.input-container label {
+  display: block; /* Ensures label is on a new line */
+  margin-bottom: 5px; /* Space below the label */
+}
+
+.input-container input {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+  border: 1px solid rgba(0, 0, 0, 0.5); /* Border for input */
+  border-radius: 5px; /* Slightly rounded corners */
+  color: black; /* Text color for input */
+}
+
+
+.DegreeandDistrict {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  column-gap: 4rem;
+  margin-left: 40px;
+  margin-top: 19rem;
+  color: white;
+  background-color: transparent;
+  font-size: large;
+  font-family: sans-serif, "Roboto";
+  font-weight: 50; /* Adjust the font weight */
+  font-size: 40px;
+  font-family: monospace, "Roboto";
+}
+
+.degree {
+  font-size: 40px;
+}
+
+.district {
+  margin-top: 0px;
+}
+
+.districtdown {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.datetime {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.time {
+  text-wrap: wrap;
+}
+
+.daily-summary {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 20px; /* Margin below the summary */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.weather-details-box {
+  background-color: rgb(12, 12, 12); /* Background color for weather details box */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  margin-top: 20px; /* Space above the box */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  color:aliceblue;
+}
+
+.blurproperty {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(5px); /* Blur effect */
+}
+
+.input-container {
+  margin: 20px;
+}
+
+.inputuser {
+  margin-top: 10px;
+}
+.displayflex {
+  display: flex; /* Using flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  width: 40%; /* Make it full width */
+}
+
+.thresholds {
+  margin-top: 20px; /* Space above the thresholds section */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for thresholds */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Adjusted inner padding for a more normal fit */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  flex: 0 0 auto; /* Allow this box to take less space */
+  min-width: 200px; /* Minimum width to prevent it from being too narrow */
+  max-width: 300px; /* Maximum width to keep it from stretching too wide */
+  color: white; /* Text color for better visibility */
+}
+
+.thresholds h2 {
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.btn-primary {
+  margin-top: 50px; /* Space above the button */
+}
+
+.daily-summary {
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the daily summary */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  margin-bottom: 20px; /* Space below the summary */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  color: white; /* Text color for visibility */
+  display: flex;
+}

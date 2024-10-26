@@ -59,6 +59,4 @@ bash node server.js
 Open your web browser and go to http://localhost:8084.
  // now normally just create a hmtl , css and javascript file with code in it.
   now in the javascript the the data will get fecth from the OpenWeatherapp from the third party.//
-
-And then now i have created an another folder named WEATHER-APP.
-In the WEATHER-APP 
+ 
